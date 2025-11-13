@@ -1,0 +1,8 @@
+:root {
+    --main-font: 'Cinzel', serif;
+    --main-font-color:#fff;
+    --titles-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --light-background:#fff;
+    --dark-background: #080808;
+    --medium-border-radius: 10px;
+}
