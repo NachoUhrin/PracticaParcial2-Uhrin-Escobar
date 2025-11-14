@@ -100,3 +100,71 @@ h1 {
 #contenedor-casas {
     margin: 0px 30px;
 }
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+}
+
+.modal-content {
+  background: #1a1a1a;
+  color: #F1C76A;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+  color: #F1C76A;
+}
+
+.fav-card {
+  display: flex;
+  gap: 10px;
+  background: #292929;
+  border: 1px solid #C1A35F;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.fav-card img {
+  width: 60px;
+  border-radius: 5px;
+}
+
+.btn-eliminar {
+  margin-top: 10px;
+  background: #6B0504;
+  color: white;
+  padding: 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.fav-btn {
+  background-color: #C1A35F;
+  border: 2px solid #6B0504;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.fav-btn:hover {
+  background-color: #F1C76A;
+  box-shadow: 0 0 8px #C1A35F;
+}
+#open-favs {
+  cursor: pointer;
+}
