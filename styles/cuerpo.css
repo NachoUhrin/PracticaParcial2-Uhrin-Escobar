@@ -106,3 +106,6 @@ h1 {
   background-color: #F1C76A;
   box-shadow: 0 0 8px #C1A35F;
 }
+#open-favs {
+  cursor: pointer;
+}
